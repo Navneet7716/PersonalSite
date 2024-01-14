@@ -31,17 +31,24 @@ export default function Home() {
   return (
     <>
       <div className="flex justify-center items-center min-h-64 flex-col">
-        <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 sm:text-5xl md:text-5xl lg:text-6xl dark:text-white">
+        <h1 className="pt-10 mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 sm:text-5xl md:text-5xl lg:text-6xl dark:text-white">
           Hi 👋 I’m Navneet!
         </h1>
-        <div className="w-1/2">
+        <div className="lg:w-1/2 w-full bg-slate-900 p-5">
           <p>I am a full-stack software engineer at BeingZero (yes that&#39;s a real company google it.), 
             I like to learn/experiment with new technologies and love working on new projects that challenge my skills and knowledge. 
             And also I love to talk about tech, 
             I mean I am a software engineer so.. that is kind off a given isn&#39;t it..</p>
+            <br />
+            <p>🎓 CS @ KL University: B.Tech</p>
+            <p>💻 Prev. @NEGD @BeingZero @ShortCast</p>
+            <p>📍Lived in Hyderabad, Vijayawada, Mau, Ranchi, Patna.</p>
+            <p>🌎 Speaks English, Hindi.</p>
+            <p>⚙️ Tech Stack - React.js, Node.js, Django, MongoDB, MySQL, PostgreSQL, AWS</p>
+            <p>👨‍💻 Languages - JavaScript, Java, C++, Python (jk python is not a real language)</p>
         </div>
       </div>
-      <h2 className="text-center text-4xl font-bold">Projects</h2>
+      <h2 className="text-center underline text-4xl font-bold pt-10">Projects 💻</h2>
 
       <section className="pt-10 flex gap-6 flex-col lg:flex-row md:flex-row">
         {projects.map((project, index) => {

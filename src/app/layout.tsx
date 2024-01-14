@@ -24,6 +24,9 @@ export default function RootLayout({
         <Container>
           <main className="min-h-screen">{children}</main>
         </Container>
+        <div className="flex justify-center items-center p-3">
+          Made with 🔥 by Navneet
+        </div>
       </body>
     </html>
   );
