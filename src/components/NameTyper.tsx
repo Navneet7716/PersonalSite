@@ -1,17 +1,15 @@
-"use client"
+"use client";
 import Typewriter from "typewriter-effect";
 
 function NameTyper() {
   return (
     <Typewriter
-            component={"span"}
-            onInit={(typewriter) => {
-              typewriter.typeString('Navneet Singh!')
-                .pauseFor(2500)
-                .start();
-          }}
-          />
-  )
+      component={"span"}
+      onInit={(typewriter) => {
+        typewriter.typeString("Navneet!").pauseFor(2500).start();
+      }}
+    />
+  );
 }
 
-export default NameTyper
+export default NameTyper;
