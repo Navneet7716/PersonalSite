@@ -6,7 +6,7 @@ import React from "react";
 function Navbar() {
   const currentPath = usePathname();
   return (
-    <nav className="flex gap-4 p-4 max-w-screen-xl flex-wrap items-center bg-black bg-opacity-50 backdrop-blur-lg sticky top-0 w-full mx-auto">
+    <nav className="flex z-10 w-screen gap-4 p-4 justify-center flex-wrap items-center bg-black bg-opacity-50 backdrop-blur-lg sticky top-0 mx-auto">
       <Link
         className={`${currentPath === "/" ? "underline" : undefined}`}
         href={"/"}

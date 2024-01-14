@@ -1,5 +1,6 @@
 import NameTyper from "@/components/NameTyper";
 import { Metadata } from "next";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Navneet Singh",
@@ -48,6 +49,17 @@ export default function Home() {
   return (
     <>
       <div className="flex justify-center items-center min-h-64 flex-col">
+        <div className="w-full mb-2 box-border block">
+          <div className="overflow-hidden relative h-0 md:h-72 lg:h-72 block">
+            <Image
+            className="absolute inset-0 box-border object-cover object-center w-0 h-0 min-w-full min-h-full max-h-full max-w-full"
+              src={"/background.avif"}
+              alt="background"
+              height={100}
+              width={2000}
+            />
+          </div>
+        </div>
         <h1 className="pt-10 mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 sm:text-5xl md:text-5xl lg:text-6xl dark:text-white">
           Hi 👋 I’m <NameTyper />
         </h1>
@@ -88,9 +100,9 @@ export default function Home() {
           version="1.1"
           fill="none"
           stroke="white"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="1.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="1.2"
         >
           <rect height="10.5" width="12.5" y="2.75" x="1.75" />
           <path d="m8.75 10.25h2.5m-6.5-4.5 2.5 2.25-2.5 2.25" />
