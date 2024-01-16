@@ -63,7 +63,7 @@ export default function Home() {
         <h1 className="pt-10 mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 sm:text-5xl md:text-5xl lg:text-6xl dark:text-white">
           Hi 👋 I’m <NameTyper />
         </h1>
-        <div className="lg:w-1/2 w-full bg-slate-900 p-5 mt-4">
+        <div className="lg:w-1/2 w-full bg-slate-200 dark:bg-slate-900 p-5 mt-4">
           <p>
             I am a full-stack software engineer at BeingZero (yes that&#39;s a
             real company google it.), I like to learn/experiment with new
@@ -99,7 +99,7 @@ export default function Home() {
           xmlns="http://www.w3.org/2000/svg"
           version="1.1"
           fill="none"
-          stroke="white"
+          stroke="gray"
           strokeLinecap="round"
           strokeLinejoin="round"
           strokeWidth="1.2"
@@ -114,7 +114,7 @@ export default function Home() {
           return (
             <div
               key={index}
-              className="w-full border-2 p-3 flex flex-col hover:bg-green-950 hover:scale-105 transition"
+              className="w-full border-2 p-3 flex flex-col hover:bg-green-200 dark:hover:bg-green-950 hover:scale-105 transition"
             >
               <div className="flex items-center">
                 <h1 className="text-lg font-bold">{project.title}</h1>{" "}
