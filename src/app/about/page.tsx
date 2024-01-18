@@ -1,7 +1,9 @@
+
 import Image from "next/image";
 import React from "react";
 
 function About() {
+
   return (
     <div>
       <h1 className="text-center font-bold text-3xl py-4">My Resume</h1>

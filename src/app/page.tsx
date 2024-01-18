@@ -109,7 +109,7 @@ export default function Home() {
         </svg>
       </div>
 
-      <section className="py-10 flex gap-6 flex-col lg:flex-row md:flex-row">
+      <section className="py-10 flex gap-6 flex-col lg:flex-row md:flex-col">
         {projects.map((project, index) => {
           return (
             <div
