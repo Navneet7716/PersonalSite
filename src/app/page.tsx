@@ -1,4 +1,6 @@
+import MyBlogsSection from "@/components/MyBlogsSection";
 import NameTyper from "@/components/NameTyper";
+import { IconEye, IconHeart, IconMessage } from "@tabler/icons-react";
 import { Metadata } from "next";
 import Image from "next/image";
 
@@ -52,7 +54,7 @@ export default function Home() {
         <div className="w-full mb-2 box-border block">
           <div className="overflow-hidden relative h-0 md:h-72 lg:h-72 block">
             <Image
-            className="absolute inset-0 box-border object-cover object-center w-0 h-0 min-w-full min-h-full max-h-full max-w-full"
+              className="absolute inset-0 box-border object-cover object-center w-0 h-0 min-w-full min-h-full max-h-full max-w-full"
               src={"/background.avif"}
               alt="background"
               height={100}
@@ -65,8 +67,7 @@ export default function Home() {
         </h1>
         <div className="lg:w-1/2 w-full bg-slate-200 dark:bg-slate-900 p-5 mt-4">
           <p>
-            I am a full-stack software engineer at BeingZero (yes that&#39;s a
-            real company google it.), I like to learn/experiment with new
+            I am a full-stack software engineer @BeingZero, I like to learn/experiment with new
             technologies and love working on new projects that challenge my
             skills and knowledge. And also I love to talk about tech, I mean I
             am a software engineer so.. that is kind off a given isn&#39;t it..
@@ -88,6 +89,9 @@ export default function Home() {
           </p>
         </div>
       </div>
+
+      <MyBlogsSection />
+
       <div className="flex gap-1 items-center pt-10 justify-center">
         <span className="text-center underline text-3xl sm:text-3xl md:text-3xl lg:text-4xl font-bold">
           Projects
