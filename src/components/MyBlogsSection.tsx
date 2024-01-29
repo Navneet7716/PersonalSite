@@ -5,11 +5,11 @@ import React from "react";
 function MyBlogsSection() {
   return (
     <div>
-      <h1 className="text-center underline text-3xl sm:text-3xl md:text-3xl lg:text-4xl font-bold py-10 transition">
+      <h1 className="text-center underline text-3xl sm:text-3xl md:text-3xl lg:text-4xl font-bold py-10">
         My Blogs 📝
       </h1>
       <section className="flex flex-col items-center justify-center">
-        <div className="w-full border-2 flex flex-col sm:flex-row md:flex-row lg:flex-row hover:bg-green-200 dark:hover:bg-green-950 lg:w-2/3">
+        <div className="w-full border-2 flex flex-col sm:flex-row md:flex-row lg:flex-row hover:bg-green-200 dark:hover:bg-green-950 lg:w-2/3 transition-colors">
           <Image
             src={"/blog1.jpg"}
             alt="blog image"

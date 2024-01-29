@@ -118,7 +118,7 @@ export default function Home() {
           return (
             <div
               key={index}
-              className="w-full border-2 p-3 flex flex-col hover:bg-green-200 dark:hover:bg-green-950 hover:scale-105 transition"
+              className="w-full border-2 p-3 flex flex-col hover:bg-green-200 dark:hover:bg-green-950 transition-colors"
             >
               <div className="flex items-center">
                 <h1 className="text-lg font-bold">{project.title}</h1>{" "}
