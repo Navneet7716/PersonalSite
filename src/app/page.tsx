@@ -1,6 +1,5 @@
 import MyBlogsSection from "@/components/MyBlogsSection";
 import NameTyper from "@/components/NameTyper";
-import { IconEye, IconHeart, IconMessage } from "@tabler/icons-react";
 import { Metadata } from "next";
 import Image from "next/image";
 
@@ -16,7 +15,7 @@ export const metadata: Metadata = {
 export default function Home() {
   const projects = [
     {
-      title: "MP Hand Cricket 🏏",
+      title: "MP Hand Cricket 🏏 (Ongoing)",
       description: `An online multiplayer hand cricket game website, If you don't know what is hand cricket I feel sorry for your childhood.`,
       githubLink: "",
       liveLink: "",
@@ -130,10 +129,10 @@ export default function Home() {
                   >
                     Github
                   </a>{" "}
-                  |{" "}
+                  {/* |{" "}
                   <a className="text-blue-400" href={project.liveLink}>
                     Live
-                  </a>
+                  </a> */}
                 </div>
               </div>
               <p
