@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Navneet Singh",
-  description: `I am a full-stack software engineer at BeingZero (yes that's a
+  description: `I am a software engineer at F5 Networks (yes that's a
     real company google it.), I like to learn/experiment with new
     technologies and love working on new projects that challenge my
     skills and knowledge. And also I love to talk about tech, I mean I
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 export default function Home() {
   const projects = [
     {
-      title: "MP Hand Cricket 🏏 (Ongoing)",
+      title: "MP Hand Cricket 🏏 (Ongoing (Not really))",
       description: `An online multiplayer hand cricket game website, If you don't know what is hand cricket I feel sorry for your childhood.`,
       githubLink: "",
       liveLink: "",
@@ -66,24 +66,21 @@ export default function Home() {
         </h1>
         <div className="lg:w-1/2 w-full bg-slate-200 dark:bg-slate-900 p-5 mt-4">
           <p>
-            I am a full-stack software engineer @BeingZero, I like to learn/experiment with new
-            technologies and love working on new projects that challenge my
-            skills and knowledge. And also I love to talk about tech, I mean I
-            am a software engineer so.. that is kind off a given isn&#39;t it..
+            {metadata.description}
           </p>
           <br />
           <p>🎓 CS @ KL University: B.Tech</p>
           <p>💻 Prev. @NEGD @BeingZero @ShortCast</p>
           <p>
-            📍Lived in Hyderabad (currently), Vijayawada, Mau, Ranchi, Patna.
+            📍Lived in Bangalore (currently), Hyderabad, Vijayawada, Mau, Ranchi, Patna.
           </p>
           <p>🌎 Speaks English, Hindi.</p>
           <p>
             ⚙️ Tech Stack - React.js, Node.js, Django, MongoDB, MySQL,
-            PostgreSQL, AWS
+            PostgreSQL, AWS, K8s, Kind, Kluctl.
           </p>
           <p>
-            👨‍💻 Languages - JavaScript, Java, C++, Python (jk python is not a
+            👨‍💻 Languages - Go, JavaScript, Java, C++, Python (jk python is not a
             real language)
           </p>
         </div>
