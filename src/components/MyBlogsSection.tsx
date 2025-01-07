@@ -82,7 +82,7 @@ function MyBlogsSection() {
               </div>
             </div>
             <p>
-            React is "generally" a performant framework.. notice the "" on generally, Yeah that is because at times in react land you do feel very limited because of all the re-rendering which leads to performance issues when you are trying to create a large/complicated component where there is a lot of moving parts...
+            React is {"\"generally\""} a performant framework.. notice the {"\"\""} on generally, Yeah that is because at times in react land you do feel very limited because of all the re-rendering which leads to performance issues when you are trying to create a large/complicated component where there is a lot of moving parts...
             </p>
             <span className="text-gray-400 mt-auto">Written on: 9th May 2024</span>
           </article>
